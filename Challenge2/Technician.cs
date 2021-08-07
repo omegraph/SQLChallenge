@@ -12,6 +12,6 @@ namespace SQLChallenges.Challenge2
         public int VehicleId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public decimal CustomerRating { get; set; }
+        public double CustomerRating { get; set; }
 }
 }

@@ -11,6 +11,6 @@ namespace SQLChallenges.Challenge2
         public decimal CustomerRating { get; set; }
         public string LicensePlate { get; set; }
         public string VIN { get; set; }
-        public decimal Miles { get; set; }
+        public float Miles { get; set; }
     }
 }
