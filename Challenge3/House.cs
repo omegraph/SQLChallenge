@@ -9,8 +9,8 @@ namespace SQLChallenges.Challenge3
     public class House
     {
         public int HouseId { get; set; }
-        public int NumberOfBedrooms { get; set; }
-        public int NumberOfBaths { get; set; }
+        public double NumberOfBedrooms { get; set; }
+        public double NumberOfBaths { get; set; }
         public decimal EstimatedValue { get; set; }
     }
 }
